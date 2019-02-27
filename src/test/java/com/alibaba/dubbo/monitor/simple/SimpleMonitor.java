@@ -16,10 +16,12 @@
  */
 package com.alibaba.dubbo.monitor.simple;
 
+import org.apache.dubbo.container.Main;
+
 public class SimpleMonitor {
 
     public static void main(String[] args) {
-        com.alibaba.dubbo.container.Main.main(args);
+        Main.main(args);
     }
 
 }

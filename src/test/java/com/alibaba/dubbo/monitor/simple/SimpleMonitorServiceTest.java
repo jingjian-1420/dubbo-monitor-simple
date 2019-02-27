@@ -16,9 +16,8 @@
  */
 package com.alibaba.dubbo.monitor.simple;
 
-import com.alibaba.dubbo.common.URL;
-import com.alibaba.dubbo.common.utils.NetUtils;
-
+import org.apache.dubbo.common.URL;
+import org.apache.dubbo.common.utils.NetUtils;
 import org.junit.Test;
 
 /**

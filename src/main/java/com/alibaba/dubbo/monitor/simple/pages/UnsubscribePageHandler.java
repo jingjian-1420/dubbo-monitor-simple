@@ -16,11 +16,11 @@
  */
 package com.alibaba.dubbo.monitor.simple.pages;
 
-import com.alibaba.dubbo.common.URL;
 import com.alibaba.dubbo.monitor.simple.common.Page;
 import com.alibaba.dubbo.monitor.simple.container.RegistryContainer;
 import com.alibaba.dubbo.monitor.simple.servlet.PageHandler;
-import com.alibaba.dubbo.registry.NotifyListener;
+import org.apache.dubbo.common.URL;
+import org.apache.dubbo.registry.NotifyListener;
 
 import java.util.List;
 

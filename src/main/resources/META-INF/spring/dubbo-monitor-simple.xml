@@ -34,8 +34,8 @@ limitations under the License.
 
     <dubbo:protocol name="dubbo" port="${dubbo.protocol.port}"/>
 
-    <dubbo:service interface="com.alibaba.dubbo.monitor.MonitorService" ref="monitorService" delay="-1"/>
+    <dubbo:service interface="org.apache.dubbo.monitor.MonitorService" ref="monitorService" delay="-1"/>
 
-    <dubbo:reference id="registryService" interface="com.alibaba.dubbo.registry.RegistryService"/>
+    <dubbo:reference id="registryService" interface="org.apache.dubbo.registry.RegistryService"/>
 
 </beans>

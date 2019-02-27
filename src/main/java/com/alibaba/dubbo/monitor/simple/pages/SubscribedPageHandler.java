@@ -16,12 +16,12 @@
  */
 package com.alibaba.dubbo.monitor.simple.pages;
 
-import com.alibaba.dubbo.common.URL;
 import com.alibaba.dubbo.monitor.simple.common.Page;
 import com.alibaba.dubbo.monitor.simple.servlet.PageHandler;
-import com.alibaba.dubbo.registry.Registry;
-import com.alibaba.dubbo.registry.support.AbstractRegistry;
-import com.alibaba.dubbo.registry.support.AbstractRegistryFactory;
+import org.apache.dubbo.common.URL;
+import org.apache.dubbo.registry.Registry;
+import org.apache.dubbo.registry.support.AbstractRegistry;
+import org.apache.dubbo.registry.support.AbstractRegistryFactory;
 
 import java.util.ArrayList;
 import java.util.Collection;

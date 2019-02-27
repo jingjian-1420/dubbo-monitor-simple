@@ -16,24 +16,18 @@
  */
 package com.alibaba.dubbo.monitor.simple.container;
 
-import com.alibaba.dubbo.common.Constants;
-import com.alibaba.dubbo.common.URL;
-import com.alibaba.dubbo.common.extension.ExtensionLoader;
-import com.alibaba.dubbo.common.utils.ConcurrentHashSet;
-import com.alibaba.dubbo.common.utils.ConfigUtils;
-import com.alibaba.dubbo.common.utils.NetUtils;
-import com.alibaba.dubbo.container.Container;
-import com.alibaba.dubbo.container.spring.SpringContainer;
-import com.alibaba.dubbo.registry.NotifyListener;
-import com.alibaba.dubbo.registry.RegistryService;
+import org.apache.dubbo.common.Constants;
+import org.apache.dubbo.common.URL;
+import org.apache.dubbo.common.extension.ExtensionLoader;
+import org.apache.dubbo.common.utils.ConcurrentHashSet;
+import org.apache.dubbo.common.utils.ConfigUtils;
+import org.apache.dubbo.common.utils.NetUtils;
+import org.apache.dubbo.container.Container;
+import org.apache.dubbo.container.spring.SpringContainer;
+import org.apache.dubbo.registry.NotifyListener;
+import org.apache.dubbo.registry.RegistryService;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**

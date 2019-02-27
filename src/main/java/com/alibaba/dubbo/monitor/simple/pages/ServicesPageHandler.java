@@ -17,7 +17,7 @@
 package com.alibaba.dubbo.monitor.simple.pages;
 
 import com.alibaba.dubbo.common.Constants;
-import com.alibaba.dubbo.common.URL;
+import org.apache.dubbo.common.URL;
 import com.alibaba.dubbo.monitor.simple.common.Menu;
 import com.alibaba.dubbo.monitor.simple.common.Page;
 import com.alibaba.dubbo.monitor.simple.container.RegistryContainer;

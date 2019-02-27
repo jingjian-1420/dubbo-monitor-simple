@@ -16,9 +16,9 @@
  */
 package com.alibaba.dubbo.monitor.simple.servlet;
 
-import com.alibaba.dubbo.common.URL;
-import com.alibaba.dubbo.common.extension.SPI;
 import com.alibaba.dubbo.monitor.simple.common.Page;
+import org.apache.dubbo.common.URL;
+import org.apache.dubbo.common.extension.SPI;
 
 /**
  * PageHandler

@@ -16,8 +16,9 @@
  */
 package com.alibaba.dubbo.monitor.simple.common;
 
-import com.alibaba.dubbo.common.logger.Logger;
-import com.alibaba.dubbo.common.logger.LoggerFactory;
+
+import org.apache.dubbo.common.logger.Logger;
+import org.apache.dubbo.common.logger.LoggerFactory;
 
 import java.io.BufferedReader;
 import java.io.File;

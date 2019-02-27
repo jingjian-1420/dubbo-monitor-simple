@@ -16,12 +16,13 @@
  */
 package com.alibaba.dubbo.monitor.simple;
 
-import com.alibaba.dubbo.common.Constants;
-import com.alibaba.dubbo.container.Main;
+import org.apache.dubbo.common.Constants;
+import org.apache.dubbo.container.Main;
 
 public class MonitorStarter {
     public static void main(String[] args) {
         System.setProperty(Constants.DUBBO_PROPERTIES_KEY, "conf/dubbo.properties");
         Main.main(args);
+        System.out.println("启动");
     }
 }
