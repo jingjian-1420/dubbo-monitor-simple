@@ -62,8 +62,7 @@ public class StatisticsPageHandler implements PageHandler {
                     File[] providerDirs = consumerDir.listFiles();
                     for (File providerDir : providerDirs) {
                         if (MonitorService.PROVIDER.equals(expand)) {
-                            expandStatistics = newStatistics();
-                            expandMap.put(providerDir.getName(), expandStatistics);
+                            expandStatistics = expandMap.computeIfAbsent(providerDir.getName(),(k)->newStatistics());
                         }
                         appendStatistics(providerDir, statistics);
                         if (expandStatistics != null) {
