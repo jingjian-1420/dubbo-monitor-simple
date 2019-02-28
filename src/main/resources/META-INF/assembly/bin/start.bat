@@ -8,7 +8,7 @@ cd ..\assembly.bin
 if ""%1"" == ""debug"" goto debug
 if ""%1"" == ""jmx"" goto jmx
 
-java -Xms64m -Xmx1024m -XX:MaxPermSize=64M -classpath ..\conf;%LIB_JARS% com.alibaba.dubbo.container.Main
+java -Xms64m -Xmx1024m -XX:MaxPermSize=64M -classpath ..\conf;%LIB_JARS% com.alibaba.dubbo.monitor.simple.MonitorStarter
 goto end
 
 :debug
