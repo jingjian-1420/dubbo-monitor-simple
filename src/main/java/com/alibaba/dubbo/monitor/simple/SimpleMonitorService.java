@@ -93,7 +93,7 @@ public class SimpleMonitorService implements MonitorService {
                     logger.error("Unexpected error occur at draw stat chart, cause: " + t.getMessage(), t);
                 }
             }
-        }, 1, 300, TimeUnit.SECONDS);
+        }, 1, 60, TimeUnit.SECONDS);
         statisticsDirectory = ConfigUtils.getProperty("dubbo.statistics.directory");
         chartsDirectory = ConfigUtils.getProperty("dubbo.charts.directory");
     }
